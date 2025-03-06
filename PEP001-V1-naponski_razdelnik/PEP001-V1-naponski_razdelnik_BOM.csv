@@ -1,0 +1,7 @@
+"Comment","Designator","Footprint","LCSC Part Number"
+"MountingHole,TestPoint","H1,H2,H3,H4,TP1,TP2","",""
+"Screw_Terminal_01x02","J1","THT","C3018698"
+"10k","R1","1206","C17902"
+"82k","R2","1206","C17979"
+"10k","R3","THT","C410695"
+"82k","R4","THT","C601724"
