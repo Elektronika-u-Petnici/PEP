@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4bec5ddf-adbf-41fb-a069-c7630bb0044a")
 	(paper "A5")
 	(title_block
@@ -11,7 +11,9 @@
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -88,9 +90,10 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -113,7 +116,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
 					)
 					(stroke
 						(width 0.1524)
@@ -135,10 +138,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
+				(circle
+					(center 0 0)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -148,7 +150,7 @@
 					)
 				)
 				(circle
-					(center 0 0)
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -195,11 +197,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -297,9 +304,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -418,6 +428,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -500,6 +511,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:0"
 			(power)
@@ -579,7 +591,8 @@
 			(symbol "0_1_1"
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "0"
 						(effects
 							(font
@@ -596,7 +609,100 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 12.065 12.065)
+		(end 69.85 66.675)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38749e43-3110-4f59-8ac6-76775dd37de5)
+	)
+	(rectangle
+		(start 12.065 104.14)
+		(end 83.82 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81b9c5dc-703e-43b5-ad34-0becdc64748b)
+	)
+	(rectangle
+		(start 69.85 12.065)
+		(end 133.985 66.675)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb8bf397-fe9e-4f27-83cf-da3cfbf8f5c0)
+	)
+	(rectangle
+		(start 133.985 12.065)
+		(end 198.12 66.675)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec24c707-78fb-490c-be87-1a03f61a0860)
+	)
+	(text "SMD razdelnik napona\n"
+		(exclude_from_sim no)
+		(at 134.62 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "054dde91-a216-4642-8850-8ca32e1eef67")
+	)
+	(text "Rupe za montiranje\n"
+		(exclude_from_sim no)
+		(at 17.78 109.22 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a4bf67d-83bf-4c30-a6e3-5f60222c600a")
+	)
+	(text "Konektor za napajanje"
+		(exclude_from_sim no)
+		(at 12.7 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "7adc5d2b-b8ad-46b4-be92-74dfb29a0d16")
+	)
+	(text "THT razdelnik napona\n"
+		(exclude_from_sim no)
+		(at 71.12 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0f6d9b0-5a3e-47ab-948b-323d2eea09f2")
 	)
 	(junction
 		(at 149.86 43.18)
@@ -759,98 +865,6 @@
 			(type default)
 		)
 		(uuid "f5c48402-6d3c-480f-b57b-ab8740868dc4")
-	)
-	(rectangle
-		(start 12.065 12.065)
-		(end 69.85 66.675)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 38749e43-3110-4f59-8ac6-76775dd37de5)
-	)
-	(rectangle
-		(start 12.065 104.14)
-		(end 83.82 135.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 81b9c5dc-703e-43b5-ad34-0becdc64748b)
-	)
-	(rectangle
-		(start 69.85 12.065)
-		(end 133.985 66.675)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb8bf397-fe9e-4f27-83cf-da3cfbf8f5c0)
-	)
-	(rectangle
-		(start 133.985 12.065)
-		(end 198.12 66.675)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ec24c707-78fb-490c-be87-1a03f61a0860)
-	)
-	(text "SMD razdelnik napona\n"
-		(exclude_from_sim no)
-		(at 134.62 17.78 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "054dde91-a216-4642-8850-8ca32e1eef67")
-	)
-	(text "Rupe za montiranje\n"
-		(exclude_from_sim no)
-		(at 17.78 109.22 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a4bf67d-83bf-4c30-a6e3-5f60222c600a")
-	)
-	(text "Konektor za napajanje"
-		(exclude_from_sim no)
-		(at 12.7 17.78 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "7adc5d2b-b8ad-46b4-be92-74dfb29a0d16")
-	)
-	(text "THT razdelnik napona\n"
-		(exclude_from_sim no)
-		(at 71.12 17.78 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0f6d9b0-5a3e-47ab-948b-323d2eea09f2")
 	)
 	(global_label "9V"
 		(shape input)
@@ -1068,7 +1082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "81k"
+		(property "Value" "82k"
 			(at 152.4 36.8299 0)
 			(effects
 				(font
@@ -1086,7 +1100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F8202T5E_C17979.pdf"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -1096,6 +1110,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17979"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "1206"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -1223,7 +1255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TyoHM-RN1-4W10KFT-BA1_C410695.pdf"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -1233,6 +1265,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C410695"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "THT"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -1260,7 +1310,7 @@
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 40.64 38.1 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1292,7 +1342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2301061230_DORABO-DB127V-5-08-2P-GN-S_C3018698.pdf"
 			(at 40.64 38.1 0)
 			(effects
 				(font
@@ -1302,6 +1352,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3018698"
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "THT"
 			(at 40.64 38.1 0)
 			(effects
 				(font
@@ -1556,7 +1624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705876598476800"
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -1566,6 +1634,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17902"
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "1206"
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -1806,7 +1892,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "81k"
+		(property "Value" "82k"
 			(at 93.98 35.5599 0)
 			(effects
 				(font
@@ -1824,7 +1910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_VO-MF1-4W-82K-1--OT26_C601724.pdf"
 			(at 91.44 34.29 0)
 			(effects
 				(font
@@ -1834,6 +1920,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C601724"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "THT"
 			(at 91.44 34.29 0)
 			(effects
 				(font
@@ -1862,4 +1966,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
