@@ -1247,304 +1247,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3401A"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3401A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3401A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AO3401A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -1759,38 +1461,14 @@
 		(uuid "563fc86c-a6d8-4fcd-bddf-ec867bdb3983")
 	)
 	(junction
-		(at 114.3 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f291184-02fc-4187-a5b8-f1dcdcac0cb9")
-	)
-	(junction
-		(at 119.38 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74ab1163-fb40-40f7-847c-9327490f2ea4")
-	)
-	(junction
-		(at 143.51 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c15c0f92-73f4-42ec-9c24-0cfe70643b74")
-	)
-	(junction
 		(at 114.3 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec5c3255-1695-4bb4-9255-587569ee0cbf")
 	)
-	(junction
-		(at 90.17 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f646c5bd-be30-4edb-af4d-e7147a67ddf5")
-	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 153.67 74.93)
+			(xy 153.67 35.56) (xy 153.67 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1800,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 43.18 53.34)
+			(xy 92.71 38.1) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1820,16 +1498,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 26.67) (xy 114.3 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1207d740-520c-4b37-b692-501c0f42dccb")
-	)
-	(wire
-		(pts
 			(xy 171.45 87.63) (xy 171.45 97.79)
 		)
 		(stroke
@@ -1840,23 +1508,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 55.88) (xy 43.18 55.88)
+			(xy 92.71 40.64) (xy 93.98 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2de1e4d5-dca0-404d-be79-48c2917ccfcd")
-	)
-	(wire
-		(pts
-			(xy 90.17 36.83) (xy 90.17 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e5f3e85-ce1b-48fe-9ea4-4b43123fcc18")
 	)
 	(wire
 		(pts
@@ -1870,63 +1528,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 36.83) (xy 106.68 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31f3f6dd-51a0-49eb-8462-8b2bf21d1132")
-	)
-	(wire
-		(pts
-			(xy 154.94 45.72) (xy 153.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35bc0022-2ff3-4870-9b20-bcd066de37d6")
-	)
-	(wire
-		(pts
-			(xy 171.45 27.94) (xy 171.45 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e3a01d-f689-422d-9a1c-77036e2f8034")
-	)
-	(wire
-		(pts
-			(xy 153.67 45.72) (xy 153.67 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b1cccb5-f183-4bdc-93c6-b022d64c6cc9")
-	)
-	(wire
-		(pts
-			(xy 154.94 77.47) (xy 153.67 77.47)
+			(xy 154.94 41.91) (xy 153.67 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "41c926aa-a02f-4c67-b955-9b94a23163aa")
-	)
-	(wire
-		(pts
-			(xy 119.38 26.67) (xy 119.38 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac44c7f-0c8f-435a-8bd4-7a07ac04f340")
 	)
 	(wire
 		(pts
@@ -1940,6 +1548,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 41.91) (xy 153.67 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c41d527-4390-4b8d-ae47-f02f9c283bfd")
+	)
+	(wire
+		(pts
 			(xy 114.3 85.09) (xy 119.38 85.09)
 		)
 		(stroke
@@ -1947,26 +1565,6 @@
 			(type default)
 		)
 		(uuid "78e3bb06-cfa3-4b7b-99fe-e3aa4aec8e61")
-	)
-	(wire
-		(pts
-			(xy 119.38 36.83) (xy 143.51 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cef447f-7df7-4e4e-850a-f9b7bbd4ab6e")
-	)
-	(wire
-		(pts
-			(xy 153.67 48.26) (xy 153.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8213ee72-9182-42d1-96c6-506ba28cfe30")
 	)
 	(wire
 		(pts
@@ -1990,16 +1588,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 44.45) (xy 90.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86ce643a-709c-4df4-b489-e631d6ac77c1")
-	)
-	(wire
-		(pts
 			(xy 114.3 85.09) (xy 114.3 87.63)
 		)
 		(stroke
@@ -2010,43 +1598,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 36.83) (xy 99.06 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91cbee15-cb92-4c84-8047-47a5d4520e14")
-	)
-	(wire
-		(pts
-			(xy 153.67 74.93) (xy 154.94 74.93)
+			(xy 153.67 39.37) (xy 154.94 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "92884eca-11b5-4a33-aee8-405e67581798")
-	)
-	(wire
-		(pts
-			(xy 143.51 54.61) (xy 143.51 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9de0b778-9f63-4024-8c43-2e070f38268b")
-	)
-	(wire
-		(pts
-			(xy 153.67 48.26) (xy 154.94 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a368c4f1-010e-4523-a89c-0045265008f5")
 	)
 	(wire
 		(pts
@@ -2060,43 +1618,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 96.52) (xy 143.51 97.79)
+			(xy 143.51 95.25) (xy 143.51 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad00e8da-03bd-4e75-bac6-0a8447f0ddfd")
-	)
-	(wire
-		(pts
-			(xy 143.51 36.83) (xy 146.05 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7e2601-f0cd-4994-b782-29488f41e248")
-	)
-	(wire
-		(pts
-			(xy 171.45 45.72) (xy 171.45 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfdf6350-249e-4c26-a963-e78b7e75abf6")
-	)
-	(wire
-		(pts
-			(xy 86.36 36.83) (xy 90.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c46e69-80fd-46b3-aa85-b943d27c3a7f")
 	)
 	(wire
 		(pts
@@ -2120,36 +1648,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 35.56) (xy 114.3 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe4ec06-d77a-4cf1-bc05-0875c70a826d")
-	)
-	(wire
-		(pts
-			(xy 119.38 35.56) (xy 119.38 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d104a490-7245-44ab-8234-de27ccc2fb5f")
-	)
-	(wire
-		(pts
-			(xy 153.67 77.47) (xy 153.67 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d142f400-9fe1-4f7d-a7c1-79acfeba0444")
-	)
-	(wire
-		(pts
 			(xy 143.51 83.82) (xy 143.51 85.09)
 		)
 		(stroke
@@ -2170,17 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 27.94) (xy 153.67 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd0e9ed2-0b0e-4ea6-b98e-b64c0196a5a5")
-	)
-	(wire
-		(pts
-			(xy 41.91 55.88) (xy 41.91 58.42)
+			(xy 92.71 40.64) (xy 92.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2210,23 +1698,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 41.91 53.34)
+			(xy 92.71 36.83) (xy 92.71 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8ce9249-6225-473b-8d44-97dc83b1f742")
-	)
-	(wire
-		(pts
-			(xy 119.38 36.83) (xy 114.3 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05eddcc-89bc-4b2e-a413-2a77553dc692")
 	)
 	(wire
 		(pts
@@ -2260,31 +1738,9 @@
 			)
 		)
 	)
-	(global_label "PMOS_GATE"
-		(shape input)
-		(at 86.36 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e178230-24a3-4a04-82f1-1ee3ed3926e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.6706 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 41.91 58.42 0)
+		(at 92.71 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +1749,7 @@
 		(fields_autoplaced yes)
 		(uuid "03337c04-a0a3-4cad-90d6-bcdb0825243b")
 		(property "Reference" "#GND05"
-			(at 41.91 60.96 0)
+			(at 92.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +1758,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 41.91 55.88 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +1767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 58.42 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +1776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 58.42 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +1785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 58.42 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +1807,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 143.51 96.52 0)
+		(at 143.51 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2360,7 +1816,7 @@
 		(dnp no)
 		(uuid "03ac2d0d-9463-49a1-ae12-19e834d99460")
 		(property "Reference" "TP2"
-			(at 142.24 93.98 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +1825,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 140.97 94.4879 0)
+			(at 140.97 93.2179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +1835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 96.52 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +1844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 96.52 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +1853,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 143.51 96.52 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,76 +1932,6 @@
 			(project "003_redna_paralelna_otpornost"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PEP_library:Screw_Terminal_01x02")
-		(at 160.02 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fc65576-088c-49b6-901e-a55b58c67bac")
-		(property "Reference" "J4"
-			(at 162.56 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 162.56 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "278d3141-1951-4214-9ec2-1809468e7af6")
-		)
-		(pin "1"
-			(uuid "eb5fc8bc-fddf-41c8-9875-0c8fa54c57d6")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2766,83 +2152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 102.87 36.83 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fb5d5cc-5a10-420d-98a0-03156ca355b0")
-		(property "Reference" "R1"
-			(at 102.87 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 102.87 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 103.124 37.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 102.87 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4410"
-			(at 102.87 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf7eac01-980d-4b6c-99d4-58d01c49b889")
-		)
-		(pin "1"
-			(uuid "c686cc4a-a2e4-4353-8773-7413b14737c2")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 171.45 69.85 0)
 		(unit 1)
@@ -2902,71 +2211,6 @@
 			(project "PEP102-MOSFET"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 171.45 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "383f5f22-9dcd-481b-ad2a-96f017c9b912")
-		(property "Reference" "#PWR03"
-			(at 171.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 171.45 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 171.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e235b27e-60f8-4a9d-a821-4654f6fbe950")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3112,7 +2356,7 @@
 	)
 	(symbol
 		(lib_id "PEP_library:Screw_Terminal_01x02")
-		(at 48.26 53.34 0)
+		(at 99.06 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3120,7 +2364,7 @@
 		(dnp no)
 		(uuid "462a7e21-f406-407e-a141-b10fdb17a80c")
 		(property "Reference" "J1"
-			(at 50.8 54.61 0)
+			(at 101.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +2373,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 50.8 55.8799 0)
+			(at 101.6 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 48.26 53.34 0)
+			(at 99.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +2392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 53.34 0)
+			(at 99.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +2401,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 53.34 0)
+			(at 99.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,138 +2419,6 @@
 			(project ""
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 153.67 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48a585d0-f6e0-498c-a9ed-0549ab1fde5f")
-		(property "Reference" "#PWR04"
-			(at 153.67 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 153.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 153.67 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92a7dd39-7edc-48c6-9856-9e815bf34f20")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 90.17 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "529e75b8-be22-48bd-a947-410710bebf08")
-		(property "Reference" "#GND010"
-			(at 90.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 90.17 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a710b75f-a2d6-46fa-8506-4f63cbf0fc81")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -3380,166 +2492,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 171.45 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cd15ac8-d64d-440b-a7b0-ec5a1e902e50")
-		(property "Reference" "C2"
-			(at 175.26 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 175.26 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 172.4152 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C24497"
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "84aad2ea-8a7c-4ee2-a5ce-7d598d6bb0a4")
-		)
-		(pin "1"
-			(uuid "5c5e3d50-93e6-486c-9188-291a29b5fdf4")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 114.3 31.75 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ce4e06d-19b4-4843-8516-b389e14c4344")
-		(property "Reference" "D4"
-			(at 111.76 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P6SMB6.8CA/TR13"
-			(at 111.76 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 114.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 114.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C78395"
-			(at 114.3 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7cc44800-4657-41d8-87a7-7084ea72b4a1")
-		)
-		(pin "1"
-			(uuid "6b5c0265-e0c6-48ae-bc70-24fed8b6947d")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 153.67 71.12 0)
+		(at 153.67 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3547,7 +2501,7 @@
 		(dnp no)
 		(uuid "72f72dce-f612-4e7a-bd7e-90cd4a53915b")
 		(property "Reference" "#PWR01"
-			(at 153.67 74.93 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +2510,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 153.67 66.04 0)
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +2518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 71.12 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +2527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 71.12 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +2536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 153.67 71.12 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +2768,8 @@
 	)
 	(symbol
 		(lib_id "PEP_library:Screw_Terminal_01x02")
-		(at 160.02 74.93 0)
+		(at 160.02 41.91 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3822,7 +2777,7 @@
 		(dnp no)
 		(uuid "7d51dc5c-7923-4bf3-b55d-ca0ebaf6d9f0")
 		(property "Reference" "J2"
-			(at 162.56 76.2 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +2786,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 162.56 77.4699 0)
+			(at 162.56 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +2796,7 @@
 			)
 		)
 		(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 160.02 74.93 0)
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +2805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 74.93 0)
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +2814,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 74.93 0)
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,156 +2986,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 151.13 36.83 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95e7001c-3843-46c1-853c-26a9ee144e17")
-		(property "Reference" "Q8"
-			(at 158.75 38.1001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 158.75 35.5601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 156.21 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 156.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 151.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15127"
-			(at 151.13 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "778fc601-b98d-436c-bf59-f1b4ffb971cc")
-		)
-		(pin "3"
-			(uuid "c136392c-14ba-4363-8337-3f2737801213")
-		)
-		(pin "2"
-			(uuid "5145e12a-1665-42be-a8e1-67b38fdf48f3")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 114.3 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9768a639-d006-44a0-b801-84241d9069ba")
-		(property "Reference" "#PWR06"
-			(at 114.3 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 114.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a086625-41b3-48ef-9c2a-bbfa42271bfe")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 119.38 91.44 270)
 		(mirror x)
@@ -4328,7 +3133,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 41.91 52.07 0)
+		(at 92.71 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4336,7 +3141,7 @@
 		(dnp no)
 		(uuid "9aec1cc2-4bbc-40ce-ac9e-14e1fb2933be")
 		(property "Reference" "#PWR07"
-			(at 41.91 55.88 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +3150,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 41.91 46.99 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +3158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 52.07 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +3167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 52.07 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +3176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 41.91 52.07 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,153 +3191,6 @@
 			(project "PEP102-MOSFET"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 119.38 31.75 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ed22db6-5582-4610-894c-8f522a4829bb")
-		(property "Reference" "D5"
-			(at 121.92 33.0201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P6SMB6.8CA/TR13"
-			(at 121.92 30.4801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 119.38 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 119.38 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C78395"
-			(at 119.38 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a926175c-2563-4592-92fc-4b3d52211197")
-		)
-		(pin "1"
-			(uuid "d5d9aff1-eeda-4fda-9111-6b2bd120550a")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 143.51 36.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1ffc475-8607-4596-aa12-f1c0cee19b25")
-		(property "Reference" "TP3"
-			(at 142.24 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 140.97 34.7979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 143.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba40faca-1070-47ee-b962-7ea252d7ef4e")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4604,73 +3262,6 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 153.67 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac85f5ea-d0b2-4c06-99da-c93256ea5d7d")
-		(property "Reference" "#GND08"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 153.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88905f9c-d43f-458b-8c25-0658da5fcff1")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#GND08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
 		(at 90.17 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4731,142 +3322,6 @@
 			(project "PEP102-MOSFET"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "#GND06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 119.38 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bac58927-3f84-4c52-90ad-7d5a348a9f70")
-		(property "Reference" "#PWR05"
-			(at 119.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 119.38 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 119.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "712a673c-ec51-42a3-b7f2-c700ea6f0980")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PEP_library:Screw_Terminal_01x02")
-		(at 85.09 41.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c566782d-b411-44f5-b23c-4003d4d9d22a")
-		(property "Reference" "J5"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 82.55 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 85.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 85.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4811b7a2-8d94-4fce-950f-ad0bb58721d9")
-		)
-		(pin "1"
-			(uuid "5060de85-79ca-4fe0-837d-754cddf0f085")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4944,208 +3399,6 @@
 			(project ""
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 171.45 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8ab49cb-9a43-4636-b132-76bd10996d1f")
-		(property "Reference" "#GND09"
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ade18f4-8aae-4127-89ea-a6d640951b0e")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#GND09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 143.51 54.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e596fed5-08ea-4ecb-acf8-0701ddd2b955")
-		(property "Reference" "TP4"
-			(at 142.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 140.97 52.5779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 143.51 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93256416-7cbb-443d-9fc4-b865f602dda2")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 143.51 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f40168d4-76c4-4389-8500-cc18299418ce")
-		(property "Reference" "#GND011"
-			(at 143.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a881236c-6d44-4422-b161-09698cab8d28")
-		)
-		(instances
-			(project "PEP102-MOSFET"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "#GND011")
 					(unit 1)
 				)
 			)
