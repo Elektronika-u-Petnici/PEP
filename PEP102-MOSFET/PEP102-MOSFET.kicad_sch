@@ -2796,7 +2796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "PEP_library:Screw terminal"
 			(at 160.02 39.37 0)
 			(effects
 				(font
