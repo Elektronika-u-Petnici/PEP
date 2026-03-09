@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -469,7 +470,7 @@
     ]
   },
   "meta": {
-    "filename": "45x45_template.kicad_pro",
+    "filename": "PEP201-pojacavac_klase_A.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -609,7 +610,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "45x45_template.wbk"
+      "workbook_filename": "PEP201-pojacavac_klase_A.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
