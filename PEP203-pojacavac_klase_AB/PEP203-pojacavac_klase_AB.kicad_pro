@@ -470,7 +470,7 @@
     ]
   },
   "meta": {
-    "filename": "PEP201-pojacavac klase A.kicad_pro",
+    "filename": "PEP203-pojacavac_klase_AB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -610,7 +610,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "PEP201-pojacavac klase A.wbk"
+      "workbook_filename": "PEP203-pojacavac_klase_AB.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
