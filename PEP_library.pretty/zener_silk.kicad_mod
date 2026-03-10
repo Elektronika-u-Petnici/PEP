@@ -1,0 +1,186 @@
+(footprint "zener_silk"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.43 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "52eb8879-7ec0-4312-b020-7c2c1fe8870d")
+		(effects
+			(font
+				(face "Open Sans")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.448468 -2.010039) (xy -1.374145 -1.995424) (xy -1.316067 -1.973374) (xy -1.271161 -1.944954)
+					(xy -1.233826 -1.906707) (xy -1.206674 -1.859927) (xy -1.189504 -1.802819) (xy -1.183355 -1.732829)
+					(xy -1.189184 -1.668956) (xy -1.205775 -1.614597) (xy -1.23257 -1.567901) (xy -1.270081 -1.527593)
+					(xy -1.319835 -1.493097) (xy -1.384245 -1.46459) (xy -1.113013 -1.015) (xy -1.250339 -1.015) (xy -1.492139 -1.431128)
+					(xy -1.700478 -1.431128) (xy -1.700478 -1.015) (xy -1.816616 -1.015) (xy -1.816616 -1.53084) (xy -1.700478 -1.53084)
+					(xy -1.541293 -1.53084) (xy -1.460521 -1.537324) (xy -1.40226 -1.554419) (xy -1.360981 -1.579811)
+					(xy -1.336723 -1.606153) (xy -1.318944 -1.638482) (xy -1.307642 -1.678068) (xy -1.303584 -1.726662)
+					(xy -1.307812 -1.776086) (xy -1.319434 -1.815072) (xy -1.337508 -1.845794) (xy -1.362019 -1.869788)
+					(xy -1.403549 -1.8922) (xy -1.463951 -1.907674) (xy -1.549536 -1.91363) (xy -1.700478 -1.91363)
+					(xy -1.700478 -1.53084) (xy -1.816616 -1.53084) (xy -1.816616 -2.015418) (xy -1.542698 -2.015418)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.395245 -1.015) (xy -0.951996 -1.015) (xy -0.951996 -2.015418) (xy -0.395245 -2.015418) (xy -0.395245 -1.912287)
+					(xy -0.835859 -1.912287) (xy -0.835859 -1.589459) (xy -0.421928 -1.589459) (xy -0.421928 -1.486999)
+					(xy -0.835859 -1.486999) (xy -0.835859 -1.118864) (xy -0.395245 -1.118864)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.05819 -1.015) (xy -0.174327 -1.015) (xy -0.174327 -2.015418) (xy 0.382424 -2.015418) (xy 0.382424 -1.912287)
+					(xy -0.05819 -1.912287) (xy -0.05819 -1.546472) (xy 0.35574 -1.546472) (xy 0.35574 -1.44334) (xy -0.05819 -1.44334)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.859124 -2.077944) (xy 0.829754 -1.808606) (xy 1.101658 -1.884321) (xy 1.119426 -1.760184)
+					(xy 0.859124 -1.739057) (xy 1.028568 -1.516796) (xy 0.911026 -1.452683) (xy 0.790798 -1.69949)
+					(xy 0.681499 -1.452683) (xy 0.56127 -1.516796) (xy 0.726623 -1.739057) (xy 0.469069 -1.760184)
+					(xy 0.488852 -1.884321) (xy 0.755993 -1.808606) (xy 0.726623 -2.077944)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.630932 -2.077944) (xy 1.601562 -1.808606) (xy 1.873465 -1.884321) (xy 1.891234 -1.760184)
+					(xy 1.630932 -1.739057) (xy 1.800375 -1.516796) (xy 1.682833 -1.452683) (xy 1.562605 -1.69949)
+					(xy 1.453306 -1.452683) (xy 1.333078 -1.516796) (xy 1.49843 -1.739057) (xy 1.240876 -1.760184)
+					(xy 1.26066 -1.884321) (xy 1.5278 -1.808606) (xy 1.49843 -2.077944)
+				)
+			)
+		)
+	)
+	(property "Value" "zener_silk"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e7adbb5-13d4-4208-9aaa-340a7a487639")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6599b8fe-ad41-4e55-ab8d-b50e7cec28d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bab6b74-6050-476d-9b91-f9867a17b226")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 -1)
+		(end -0.6 1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ca66d9df-836b-4c3d-8a84-0d6fc6b8ebd9")
+	)
+	(fp_line
+		(start -0.6 0)
+		(end -2 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7900145d-ed45-4f1d-99a6-4e20f059016d")
+	)
+	(fp_line
+		(start -0.6 1)
+		(end 0.7 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "0e4b1c74-2478-4349-ac68-9b5fdb9eeffa")
+	)
+	(fp_line
+		(start 0.7 -0.8)
+		(end 0.4 -1.1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "fa193918-56fb-4257-9d8a-247a6f29f7f0")
+	)
+	(fp_line
+		(start 0.7 -0.8)
+		(end 0.7 0.8)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "9715d111-1ddd-4ce4-b89a-2fdcfaf74a66")
+	)
+	(fp_line
+		(start 0.7 0)
+		(end -0.6 -1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "80337626-057a-44a3-aa92-6d909258f00c")
+	)
+	(fp_line
+		(start 0.8 0)
+		(end 2 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "241aceaf-fbee-44a8-b6a0-d1583f52676d")
+	)
+	(fp_line
+		(start 1 1.1)
+		(end 0.7 0.8)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "5fba73e3-c570-41d4-b596-067f75dc7144")
+	)
+	(embedded_fonts no)
+)
