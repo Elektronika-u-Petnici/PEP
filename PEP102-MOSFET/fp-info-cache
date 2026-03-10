@@ -1,4 +1,4 @@
-34954754849199
+45625039362603
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72604,6 +72604,13 @@ capacitor
 2
 2
 PEP_library
+C_silk_symbol
+
+
+0
+0
+0
+PEP_library
 JP_silk_symbol
 
 
@@ -72631,6 +72638,27 @@ LED handsolder
 0
 2
 2
+PEP_library
+NMOS_silk
+
+
+0
+0
+0
+PEP_library
+NPNsilk
+
+
+0
+0
+0
+PEP_library
+PNP_silk
+
+
+0
+0
+0
 PEP_library
 PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
@@ -72702,6 +72730,13 @@ THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 
 2
 2
 PEP_library
+diode_silk
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+0
+0
+PEP_library
 ele_petnica_logo
 
 
@@ -72712,6 +72747,13 @@ PEP_library
 petnica_logo
 
 
+0
+0
+0
+PEP_library
+zener_silk
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
 0
 0
 0

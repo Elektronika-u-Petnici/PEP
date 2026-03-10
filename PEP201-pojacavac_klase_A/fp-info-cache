@@ -1,4 +1,4 @@
-169234551
+45625041947591
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72575,6 +72575,188 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PEP_library
+CP_Radial_D8.0mm_P3.50mm
+CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+PEP_library
+CP_silk_symbol
+
+
+0
+0
+0
+PEP_library
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+PEP_library
+C_1808_4520Metric
+Capacitor SMD 1808 (4520 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: datasheet page 3, https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_en.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+PEP_library
+C_silk_symbol
+
+
+0
+0
+0
+PEP_library
+JP_silk_symbol
+
+
+0
+0
+0
+PEP_library
+Kalem
+
+
+0
+0
+0
+PEP_library
+LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+PEP_library
+LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+PEP_library
+NMOS_silk
+
+
+0
+0
+0
+PEP_library
+NPNsilk
+
+
+0
+0
+0
+PEP_library
+PNP_silk
+
+
+0
+0
+0
+PEP_library
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+PEP_library
+R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+PEP_library
+R_pot_silk_symbol
+
+
+0
+0
+0
+PEP_library
+R_silk_symbol
+
+
+0
+0
+0
+PEP_library
+R_smd
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+PEP_library
+R_smd_1206
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+PEP_library
+SW_PUSH_6mm_H4.3mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
+tact sw push 6mm
+0
+4
+2
+PEP_library
+SW_push_silk screen
+
+
+0
+0
+0
+PEP_library
+Screw terminal
+Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
+PEP_library
+TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
+PEP_library
+diode_silk
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+0
+0
+PEP_library
+ele_petnica_logo
+
+
+0
+0
+0
+PEP_library
+petnica_logo
+
+
+0
+0
+0
+PEP_library
+zener_silk
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+0
+0
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
