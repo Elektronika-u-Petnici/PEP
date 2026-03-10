@@ -472,7 +472,7 @@
     ]
   },
   "meta": {
-    "filename": "PEP204-V1-differencijalni_par.kicad_pro",
+    "filename": "PEP204-differencijalni_par.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -612,7 +612,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "PEP204-V1-differencijalni_par.wbk"
+      "workbook_filename": "PEP204-differencijalni_par.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",

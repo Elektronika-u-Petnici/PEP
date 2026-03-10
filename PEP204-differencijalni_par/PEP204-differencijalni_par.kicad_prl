@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6100000143051147,
@@ -60,7 +60,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PEP204-V1-differencijalni_par.kicad_prl",
+    "filename": "PEP204-differencijalni_par.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
