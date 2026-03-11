@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"_6, _5, _2, ",997e7b5a-d5a8-41f9-879b-f51d86b09391,4,,
+_4,40f7230e-f04a-469f-a013-403497cbf59e,1,,
+_3,5e84f11e-c99f-4f49-a7a0-7391ce06634b,1,,
+"C1, C2",1206,2,10u,C13585
+"H1, H2, H3, H4",MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom,4,MountingHole,
+J1,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",1,Screw_Terminal_01x02,
+"J2, J3, J4, J5, J6, J7",PinHeader_1x02_P2.54mm_Vertical,6,Conn_01x02_Pin,
+"Q1, Q2, Q3",SOT-23,3,MMBT2222A,C8512
+"R1, R2, R3",R_smd_1206,3,1k,C4410
+R4,R_smd_1206,1,2k,C17944
+RV1,Potentiometer_Alps_RK097_Single_Horizontal,1,10k,
+U1,SOT-23,1,CJ432,C3113
