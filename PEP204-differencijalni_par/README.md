@@ -1,5 +1,5 @@
-# PEP 006 - RC konstanta
+# PEP 204 - Diferencijalni par
 
-![plot](006_sch.png)
-![plot](006_pcb.png)
+![plot](sch.svg)
+![plot](pcb.png)
 
