@@ -1,5 +1,5 @@
 # PEP 204 - Diferencijalni par
 
 ![plot](sch.svg)
-![plot](pcb.png)
+![plot](pcb.png | width=100)
 
