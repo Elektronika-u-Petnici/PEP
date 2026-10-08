@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PEP_library") (type "KiCad") (uri "/home/andreas/Downloads/PEP-master/45x90_template/PEP_library.pretty") (options "") (descr ""))
+)
