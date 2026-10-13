@@ -6356,7 +6356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 289.56 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7032,7 +7032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 13.97 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7453,7 +7453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 130.81 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8723,7 +8723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 158.75 152.4 0)
 			(hide yes)
 			(show_name no)
